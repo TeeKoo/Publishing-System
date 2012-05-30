@@ -1,0 +1,92 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	background-color: rgb(230,230,230);
+}
+
+
+#textdiv{
+	float: left;
+	width: 600px;
+}
+#picdiv{
+	width: 210;
+	float: right;
+	text-align: center;
+	font-size: 13px;
+}
+
+#space{
+	float: left;
+	height: 40px;
+	width: 100%;
+
+}
+#banner{
+	background-image: url("banner.png");
+	height: 300px;
+	width: 900px;
+	position: relative;
+
+}
+#banner h1{
+	color: white;
+	font-size: 100px;
+	padding: 20px;
+	text-shadow: 3px 3px 4px purple;
+}
+#contents{
+	float: left;
+	width: 600px;
+	padding: 10px;
+}
+
+#bannerlinks{
+	height: 50px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	background-image: url("bannerlink.png");
+}
+
+
+#bannertext{
+	padding: 15px;
+}
+
+
+#bannertext a{
+	padding: 15px;
+	color: rgb(50,50,50);
+	font-size: 20px;
+}
+
+#bannerlinks a{
+	
+}
+
+#sitewrapper{
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+	width: 900px; 	
+	box-shadow: 0px 3px 5px 2px gray;
+}
+
+#mainwrapper{
+	float: left;
+	width: 100%;
+	position: relative;
+}
+
+#sidelinks{
+	position: absolute;
+	right: 0;
+	top: 0; 
+	width: 200px;
+	box-shadow: -5px 0px 0px 0px rgb(235,235,235);
+}
+
+#sidelinks ul li{
+	list-style-type: none;
+}
